@@ -33,7 +33,7 @@ public class FrogSimulation
 		double pass;
 		for(int i = 0; i < num; i++) {
 		    if(simulate()) {
-			pass++
+			pass++;
 		    }		
 		}	
 		return pass/num;
